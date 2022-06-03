@@ -1,0 +1,29 @@
+body{
+    background: rgb(63,94,251);
+    background: linear-gradient(40deg, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+    text-align: center;
+    background-size:200% 200%;
+}
+
+#error{
+    color: red;
+}
+
+.main{
+    width: 60%;
+    height: auto;
+    min-height: 500px;
+    margin: auto;
+    margin-top: 7%;
+    background-color: red;
+    background: rgba(255, 255, 255, 0.09);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(7.3px);
+    -webkit-backdrop-filter: blur(7.3px);
+}
+
+#textarea{
+    margin-top: 15%;
+    font-family: 'Roboto', sans-serif;
+}
